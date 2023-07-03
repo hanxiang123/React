@@ -1,0 +1,23 @@
+
+// console.log("hello world kerwin")
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './04-router/App'
+
+ReactDOM.render(
+    // <React.StrictMode>
+        <App/>
+    // </React.StrictMode>
+    ,document.getElementById("root"))
+
+
+// ReactDOM.render(React.createElement("div",{
+//     id:"aaa",
+//     class:"bbb"
+// },"111111111"),document.getElementById("root"))
+
+/*
+ jsx == js+xml
+*/
+
+
