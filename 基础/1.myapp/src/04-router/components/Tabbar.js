@@ -5,6 +5,7 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 import style from  './Tabbar.module.css'
+// css 前面加上 module 说明css文件被模块化，
 export default class Tabbar extends Component {
     render() {
         return (
