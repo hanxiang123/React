@@ -1,5 +1,7 @@
+/**
+ * npm i better-scroll --save
+ */
 
-// 安装 npm i better-scroll --save
 import React, { Component } from 'react'
 import BetterScroll from 'better-scroll'
 

@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 import React,{useEffect} from 'react'
 
 function NotFound(props) {
@@ -15,6 +12,8 @@ function NotFound(props) {
     )
 }
 
+
+// connect 源码实现
 function kerwinconnenct(cb,obj){
     var value = cb()
     return (MyComponent)=>{

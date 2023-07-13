@@ -1,10 +1,3 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
-/**
- * npm i redux
- */
  //1. 引入redux, 
  //2. createStore( reducer )
  import {applyMiddleware, combineReducers, createStore,compose} from 'redux'
@@ -26,11 +19,12 @@
  export default store
 
  /*
-  store.dispatch
-  store.subscrbe
+  redux 库提供三个属性
+  store.dispatch   // 发布
+  store.subscribe  // 订阅
   store.getState
  */
-
+// 源码简单实现
 //  function createKerwinStore(reducer){
 //    var list = []
 //    var state = reducer(undefined,{})

@@ -1,6 +1,3 @@
-@公众号: 大前端私房菜
- */
-
 import React, { Component } from 'react'
 import './css/01-index.css'
 export default class App extends Component {

@@ -1,4 +1,6 @@
-// 需要安装 npm i swiper 参照 swiper 官网
+/**
+ * npm i swiper 参照 swiper 官网
+ */
 import React, { Component } from 'react'
 import Swiper , { Navigation, Pagination }from 'swiper'
 import 'swiper/swiper-bundle.min.css'

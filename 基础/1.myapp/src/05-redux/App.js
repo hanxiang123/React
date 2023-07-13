@@ -1,7 +1,9 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
+/**
+ * npm i redux
+ * npm i redux-thunk      // 管理异步，函数，返回一个函数
+ * npm i redux-promise    // 管理异步，函数，返回一个promise 
  */
+
 import React, { Component } from 'react'
 import MRouter from './router/IndexRouter'
 import Tabbar from './components/Tabbar'

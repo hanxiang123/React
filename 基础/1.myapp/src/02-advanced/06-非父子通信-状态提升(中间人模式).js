@@ -1,4 +1,6 @@
-
+/**
+ * npm i axios --save
+ */
 import React, { Component } from 'react'
 import axios from 'axios'
 import './css/03-communination.css'

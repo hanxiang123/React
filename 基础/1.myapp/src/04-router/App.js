@@ -1,5 +1,6 @@
 /**
  * npm install react-router-dom@5
+ * npm i http-proxy-middleware 配置反向代理
  */
 import React, { Component } from 'react'
 import MRouter from './router/IndexRouter'

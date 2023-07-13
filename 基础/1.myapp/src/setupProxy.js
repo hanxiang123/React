@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 /**
  * 前端反向代理：（不需用后端配合）
  * npm i http-proxy-middleware
