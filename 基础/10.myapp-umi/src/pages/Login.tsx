@@ -26,7 +26,7 @@ export default function Login() {
                     body:JSON.stringify({
                         username,
                         password
-                    })
+                    } )
                 }).then(res=>res.json())
                 .then(res=>{
                     console.log(res)

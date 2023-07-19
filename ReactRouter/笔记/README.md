@@ -24,25 +24,25 @@
 
 1. 包大小对比
 
-![image-20220314104727893](%E7%AC%94%E8%AE%B0.assets/image-20220314104727893.png)
+![image-20220314104727893](%E7%AC%94%E8%AE%B0.image-20220314104727893.png)
 
-2. <Route> 特性变更
+1. <Route> 特性变更
 
    path：与当前页面对应的URL匹配。
    
    element：新增，用于决定路由匹配时，渲染哪个组件。代替，v5的component和render。
    
-3. <Routes>代替了<Switch>
+2. <Routes>代替了<Switch>
 
-4. <*Outlet*></*Outlet*>让嵌套路由更简单 
+3. <*Outlet*></*Outlet*>让嵌套路由更简单 
 
-5. useNavigate代替useHistory
+4. useNavigate代替useHistory
 
-6. 移除了<NavLink/>的activeClassName 和 activeStyle
+5. 移除了<NavLink/>的activeClassName 和 activeStyle
 
-7. 钩子useRoutes代替react-router-config
+6. 钩子useRoutes代替react-router-config
 
-8. https://reactrouter.com/docs/en/v6/upgrading/v5
+7. https://reactrouter.com/docs/en/v6/upgrading/v5
 
 #### 三. 用法详解
 
